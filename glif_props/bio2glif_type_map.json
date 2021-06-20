@@ -1,0 +1,1190 @@
+{
+  "475585413": {
+    "node_type_id": [
+      475585413
+    ],
+    "pop_name": "i1Htr3a",
+    "location": "VisL1"
+  },
+  "478107198": {
+    "node_type_id": [
+      478107198
+    ],
+    "pop_name": "i1Htr3a",
+    "location": "VisL1"
+  },
+  "100000117": {
+    "node_type_id": [
+      475585413,
+      478107198
+    ],
+    "proportions": [
+      0.9720375888150355,
+      0.027962411184964474
+    ],
+    "pop_name": "i1Htr3a",
+    "location": "VisL1"
+  },
+  "487661754": {
+    "node_type_id": [
+      487661754
+    ],
+    "pop_name": "e23Cux2",
+    "location": "VisL23"
+  },
+  "100000102": {
+    "node_type_id": [
+      487661754
+    ],
+    "proportions": [
+      1.0
+    ],
+    "pop_name": "e23Cux2",
+    "location": "VisL23"
+  },
+  "475622793": {
+    "node_type_id": [
+      475622793
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "479220013": {
+    "node_type_id": [
+      479220013
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "464188580": {
+    "node_type_id": [
+      464188580
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "469753383": {
+    "node_type_id": [
+      469753383
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "475622680": {
+    "node_type_id": [
+      475622680
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "474267418": {
+    "node_type_id": [
+      474267418
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "327962063": {
+    "node_type_id": [
+      327962063
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "473943881": {
+    "node_type_id": [
+      473943881
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "100000107": {
+    "node_type_id": [
+      475622793,
+      479220013,
+      464188580,
+      469753383,
+      475622680,
+      474267418,
+      327962063,
+      473943881
+    ],
+    "proportions": [
+      0.2546955624355005,
+      0.13725490196078433,
+      0.1345717234262126,
+      0.1265221878224974,
+      0.12198142414860681,
+      0.11475748194014448,
+      0.1065015479876161,
+      0.0037151702786377707
+    ],
+    "pop_name": "i23Htr3a",
+    "location": "VisL23"
+  },
+  "341442651": {
+    "node_type_id": [
+      341442651
+    ],
+    "pop_name": "i23Pvalb",
+    "location": "VisL23"
+  },
+  "484635029": {
+    "node_type_id": [
+      484635029
+    ],
+    "pop_name": "i23Pvalb",
+    "location": "VisL23"
+  },
+  "488501071": {
+    "node_type_id": [
+      488501071
+    ],
+    "pop_name": "i23Pvalb",
+    "location": "VisL23"
+  },
+  "100000105": {
+    "node_type_id": [
+      341442651,
+      484635029,
+      488501071
+    ],
+    "proportions": [
+      0.43901605739665184,
+      0.41885889989750597,
+      0.14212504270584217
+    ],
+    "pop_name": "i23Pvalb",
+    "location": "VisL23"
+  },
+  "475068599": {
+    "node_type_id": [
+      324266189
+    ],
+    "pop_name": "i23Sst",
+    "location": "VisL23"
+  },
+  "324493977": {
+    "node_type_id": [
+      324493977
+    ],
+    "pop_name": "i23Sst",
+    "location": "VisL23"
+  },
+  "476686112": {
+    "node_type_id": [
+      476686112
+    ],
+    "pop_name": "i23Sst",
+    "location": "VisL23"
+  },
+  "473540161": {
+    "node_type_id": [
+      324266189
+    ],
+    "pop_name": "i23Sst",
+    "location": "VisL23"
+  },
+  "100000113": {
+    "node_type_id": [
+      324266189,
+      324493977,
+      476686112
+    ],
+    "proportions": [
+      0.7150943396226415,
+      0.17264150943396225,
+      0.11226415094339623
+    ],
+    "pop_name": "i23Sst",
+    "location": "VisL23"
+  },
+  "386049446": {
+    "node_type_id": [
+      386049446
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "476455864": {
+    "node_type_id": [
+      482809953
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "318808427": {
+    "node_type_id": [
+      318808427
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "318733871": {
+    "node_type_id": [
+      318733871
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "422738880": {
+    "node_type_id": [
+      422738880
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "476457450": {
+    "node_type_id": [
+      476457450
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "475459689": {
+    "node_type_id": [
+      476451456
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "370351753": {
+    "node_type_id": [
+      370351753
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "397351623": {
+    "node_type_id": [
+      386970660
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "100000116": {
+    "node_type_id": [
+      386049446,
+      482809953,
+      318808427,
+      318733871,
+      422738880,
+      476457450,
+      476451456,
+      370351753,
+      386970660
+    ],
+    "proportions": [
+      0.30923329083955564,
+      0.1906756510653797,
+      0.1835731196503369,
+      0.11619012930249499,
+      0.08231651793844473,
+      0.0657439446366782,
+      0.03132398470224003,
+      0.019304316153706064,
+      0.0016390457111637225
+    ],
+    "pop_name": "e4Nr5a1",
+    "location": "VisL4"
+  },
+  "485836906": {
+    "node_type_id": [
+      485836906
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "314642645": {
+    "node_type_id": [
+      314642645
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "324025371": {
+    "node_type_id": [
+      324025371
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "480124551": {
+    "node_type_id": [
+      480124551
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "473020156": {
+    "node_type_id": [
+      473020156
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "480087928": {
+    "node_type_id": [
+      480087928
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "476616076": {
+    "node_type_id": [
+      479225080
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "329550137": {
+    "node_type_id": [
+      480122859
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "484679812": {
+    "node_type_id": [
+      484679812
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "486502127": {
+    "node_type_id": [
+      501848315
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "479179020": {
+    "node_type_id": [
+      479179020
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "100000108": {
+    "node_type_id": [
+      485836906,
+      314642645,
+      324025371,
+      480124551,
+      473020156,
+      480087928,
+      479225080,
+      480122859,
+      484679812,
+      501848315,
+      479179020
+    ],
+    "proportions": [
+      0.34207429820137836,
+      0.2042360060514372,
+      0.1266599428475374,
+      0.1082534879811733,
+      0.06875105059673894,
+      0.06101865859808371,
+      0.0529500756429652,
+      0.020339552866027902,
+      0.009581442259203227,
+      0.005379055303412338,
+      0.0007564296520423601
+    ],
+    "pop_name": "e4Rorb",
+    "location": "VisL4"
+  },
+  "469798159": {
+    "node_type_id": [
+      517982558
+    ],
+    "pop_name": "e4Scnn1a",
+    "location": "VisL4"
+  },
+  "395830185": {
+    "node_type_id": [
+      395830185
+    ],
+    "pop_name": "e4Scnn1a",
+    "location": "VisL4"
+  },
+  "314900022": {
+    "node_type_id": [
+      314900022
+    ],
+    "pop_name": "e4Scnn1a",
+    "location": "VisL4"
+  },
+  "476126528": {
+    "node_type_id": [
+      476056333
+    ],
+    "pop_name": "e4Scnn1a",
+    "location": "VisL4"
+  },
+  "476218657": {
+    "node_type_id": [
+      476218657
+    ],
+    "pop_name": "e4Scnn1a",
+    "location": "VisL4"
+  },
+  "348592897": {
+    "node_type_id": [
+      518290966
+    ],
+    "pop_name": "e4Scnn1a",
+    "location": "VisL4"
+  },
+  "100000104": {
+    "node_type_id": [
+      517982558,
+      395830185,
+      314900022,
+      476056333,
+      476218657,
+      518290966
+    ],
+    "proportions": [
+      0.40166083916083917,
+      0.3036858974358974,
+      0.1259469696969697,
+      0.07910839160839161,
+      0.07000291375291376,
+      0.019594988344988344
+    ],
+    "pop_name": "e4Scnn1a",
+    "location": "VisL4"
+  },
+  "483061182": {
+    "node_type_id": [
+      483018019
+    ],
+    "pop_name": "e4other",
+    "location": "VisL4"
+  },
+  "477135941": {
+    "node_type_id": [
+      477135941
+    ],
+    "pop_name": "e4other",
+    "location": "VisL4"
+  },
+  "486146717": {
+    "node_type_id": [
+      486146717
+    ],
+    "pop_name": "e4other",
+    "location": "VisL4"
+  },
+  "485909730": {
+    "node_type_id": [
+      486146828
+    ],
+    "pop_name": "e4other",
+    "location": "VisL4"
+  },
+  "487601493": {
+    "node_type_id": [
+      487601493
+    ],
+    "pop_name": "e4other",
+    "location": "VisL4"
+  },
+  "100000110": {
+    "node_type_id": [
+      483018019,
+      477135941,
+      486146717,
+      486146828,
+      487601493
+    ],
+    "proportions": [
+      0.7482928161704452,
+      0.14415460256760448,
+      0.10243102977328598,
+      0.003619229718656105,
+      0.0015023217700081944
+    ],
+    "pop_name": "e4other",
+    "location": "VisL4"
+  },
+  "474626527": {
+    "node_type_id": [
+      474626527
+    ],
+    "pop_name": "i4Htr3a",
+    "location": "VisL4"
+  },
+  "100000114": {
+    "node_type_id": [
+      474626527
+    ],
+    "proportions": [
+      1.0
+    ],
+    "pop_name": "i4Htr3a",
+    "location": "VisL4"
+  },
+  "333604946": {
+    "node_type_id": [
+      478958894
+    ],
+    "pop_name": "i4Pvalb",
+    "location": "VisL4"
+  },
+  "487667205": {
+    "node_type_id": [
+      487667205
+    ],
+    "pop_name": "i4Pvalb",
+    "location": "VisL4"
+  },
+  "100000112": {
+    "node_type_id": [
+      478958894,
+      487667205
+    ],
+    "proportions": [
+      0.9553911678995741,
+      0.04460883210042591
+    ],
+    "pop_name": "i4Pvalb",
+    "location": "VisL4"
+  },
+  "473016550": {
+    "node_type_id": [
+      501282204
+    ],
+    "pop_name": "i4Sst",
+    "location": "VisL4"
+  },
+  "313862167": {
+    "node_type_id": [
+      313862167
+    ],
+    "pop_name": "i4Sst",
+    "location": "VisL4"
+  },
+  "100000115": {
+    "node_type_id": [
+      501282204,
+      313862167
+    ],
+    "proportions": [
+      0.6329697986577181,
+      0.36703020134228187
+    ],
+    "pop_name": "i4Sst",
+    "location": "VisL4"
+  },
+  "471129934": {
+    "node_type_id": [
+      471129934
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "485574832": {
+    "node_type_id": [
+      485574832
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "485880739": {
+    "node_type_id": [
+      485880739
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "471767045": {
+    "node_type_id": [
+      488419491
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "487664663": {
+    "node_type_id": [
+      487664663
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "485835055": {
+    "node_type_id": [
+      507996688
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "486052980": {
+    "node_type_id": [
+      486052980
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "486110216": {
+    "node_type_id": [
+      486110216
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "471758398": {
+    "node_type_id": [
+      490916919
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "471143169": {
+    "node_type_id": [
+      486176465
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "100000101": {
+    "node_type_id": [
+      471129934,
+      485574832,
+      485880739,
+      488419491,
+      487664663,
+      507996688,
+      486052980,
+      486110216,
+      490916919,
+      486176465
+    ],
+    "proportions": [
+      0.3910079713923862,
+      0.12594054980257766,
+      0.12363108098040676,
+      0.11882589585040602,
+      0.09833867242792223,
+      0.07919243090218282,
+      0.047940102808612085,
+      0.01396856142442077,
+      0.0008194889368993519,
+      0.0003352454741860985
+    ],
+    "pop_name": "e5Rbp4",
+    "location": "VisL5"
+  },
+  "480351780": {
+    "node_type_id": [
+      480351780
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "354190013": {
+    "node_type_id": [
+      354190013
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "480353286": {
+    "node_type_id": [
+      480353286
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "314804042": {
+    "node_type_id": [
+      479492633
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "323865917": {
+    "node_type_id": [
+      484737013
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "349621141": {
+    "node_type_id": [
+      517645929
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "473601979": {
+    "node_type_id": [
+      484659182
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "314831019": {
+    "node_type_id": [
+      518271679
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "324025297": {
+    "node_type_id": [
+      324025297
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "480169178": {
+    "node_type_id": [
+      480169178
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "468120757": {
+    "node_type_id": [
+      468120757
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "469793303": {
+    "node_type_id": [
+      469793303
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "480116737": {
+    "node_type_id": [
+      480090260
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "476131588": {
+    "node_type_id": [
+      476131588
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "476048909": {
+    "node_type_id": [
+      476048909
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "320207387": {
+    "node_type_id": [
+      320207387
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "468193142": {
+    "node_type_id": [
+      476263004
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "100000119": {
+    "node_type_id": [
+      480351780,
+      354190013,
+      480353286,
+      479492633,
+      484737013,
+      517645929,
+      484659182,
+      518271679,
+      324025297,
+      480169178,
+      468120757,
+      469793303,
+      480090260,
+      476131588,
+      476048909,
+      320207387,
+      476263004
+    ],
+    "proportions": [
+      0.15718116805721097,
+      0.10324791418355185,
+      0.08536948748510131,
+      0.06346841477949941,
+      0.06093563766388558,
+      0.06093563766388558,
+      0.05259237187127533,
+      0.050059594755661505,
+      0.047526817640047674,
+      0.04737783075089392,
+      0.04558998808104887,
+      0.040375446960667465,
+      0.040375446960667465,
+      0.03918355184743742,
+      0.03843861740166865,
+      0.03590584028605483,
+      0.031436233611442196
+    ],
+    "pop_name": "e5noRbp4",
+    "location": "VisL5"
+  },
+  "482644550": {
+    "node_type_id": [
+      482773968
+    ],
+    "pop_name": "i5Htr3a",
+    "location": "VisL5"
+  },
+  "478110866": {
+    "node_type_id": [
+      478110866
+    ],
+    "pop_name": "i5Htr3a",
+    "location": "VisL5"
+  },
+  "481001895": {
+    "node_type_id": [
+      482764620
+    ],
+    "pop_name": "i5Htr3a",
+    "location": "VisL5"
+  },
+  "481136138": {
+    "node_type_id": [
+      482773968
+    ],
+    "pop_name": "i5Htr3a",
+    "location": "VisL5"
+  },
+  "100000109": {
+    "node_type_id": [
+      482773968,
+      478110866,
+      482764620
+    ],
+    "proportions": [
+      0.47834645669291337,
+      0.3858267716535433,
+      0.13582677165354332
+    ],
+    "pop_name": "i5Htr3a",
+    "location": "VisL5"
+  },
+  "486783119": {
+    "node_type_id": [
+      515305346
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "471085676": {
+    "node_type_id": [
+      318556138
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "333785962": {
+    "node_type_id": [
+      481017021
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "478793814": {
+    "node_type_id": [
+      478793814
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "471077857": {
+    "node_type_id": [
+      336676216
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "321023397": {
+    "node_type_id": [
+      336676216
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "396608557": {
+    "node_type_id": [
+      480952106
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "469610831": {
+    "node_type_id": [
+      478949560
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "313861608": {
+    "node_type_id": [
+      313861608
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "100000111": {
+    "node_type_id": [
+      515305346,
+      318556138,
+      336676216,
+      481017021,
+      478793814,
+      480952106,
+      478949560,
+      313861608
+    ],
+    "proportions": [
+      0.30354659248956883,
+      0.18428372739916551,
+      0.17280945757997218,
+      0.1599443671766342,
+      0.1060500695410292,
+      0.06363004172461753,
+      0.007997218358831711,
+      0.0017385257301808068
+    ],
+    "pop_name": "i5Pvalb",
+    "location": "VisL5"
+  },
+  "482690728": {
+    "node_type_id": [
+      482690728
+    ],
+    "pop_name": "i5Sst",
+    "location": "VisL5"
+  },
+  "478396248": {
+    "node_type_id": [
+      478396248
+    ],
+    "pop_name": "i5Sst",
+    "location": "VisL5"
+  },
+  "464198958": {
+    "node_type_id": [
+      464198958
+    ],
+    "pop_name": "i5Sst",
+    "location": "VisL5"
+  },
+  "323475862": {
+    "node_type_id": [
+      478412623
+    ],
+    "pop_name": "i5Sst",
+    "location": "VisL5"
+  },
+  "475517090": {
+    "node_type_id": [
+      475517090
+    ],
+    "pop_name": "i5Sst",
+    "location": "VisL5"
+  },
+  "100000118": {
+    "node_type_id": [
+      482690728,
+      478396248,
+      464198958,
+      478412623,
+      475517090
+    ],
+    "proportions": [
+      0.5855003940110323,
+      0.16587864460204885,
+      0.128053585500394,
+      0.11899133175728921,
+      0.0015760441292356187
+    ],
+    "pop_name": "i5Sst",
+    "location": "VisL5"
+  },
+  "471819401": {
+    "node_type_id": [
+      471819401
+    ],
+    "pop_name": "e6Ntsr1",
+    "location": "VisL6"
+  },
+  "471786879": {
+    "node_type_id": [
+      539742766
+    ],
+    "pop_name": "e6Ntsr1",
+    "location": "VisL6"
+  },
+  "466632464": {
+    "node_type_id": [
+      466632464
+    ],
+    "pop_name": "e6Ntsr1",
+    "location": "VisL6"
+  },
+  "471410185": {
+    "node_type_id": [
+      509003464
+    ],
+    "pop_name": "e6Ntsr1",
+    "location": "VisL6"
+  },
+  "471789504": {
+    "node_type_id": [
+      471789504
+    ],
+    "pop_name": "e6Ntsr1",
+    "location": "VisL6"
+  },
+  "100000121": {
+    "node_type_id": [
+      471819401,
+      539742766,
+      466632464,
+      509003464,
+      471789504
+    ],
+    "proportions": [
+      0.7953742876123212,
+      0.14018740603475402,
+      0.04882696409216461,
+      0.012971574420474809,
+      0.0026397678402853048
+    ],
+    "pop_name": "e6Ntsr1",
+    "location": "VisL6"
+  },
+  "581136138": {
+    "node_type_id": [
+      487176969
+    ],
+    "pop_name": "i6Htr3a",
+    "location": "VisL6"
+  },
+  "581001895": {
+    "node_type_id": [
+      479219923
+    ],
+    "pop_name": "i6Htr3a",
+    "location": "VisL6"
+  },
+  "100000106": {
+    "node_type_id": [
+      487176969,
+      479219923
+    ],
+    "proportions": [
+      0.7705112960760999,
+      0.2294887039239001
+    ],
+    "pop_name": "i6Htr3a",
+    "location": "VisL6"
+  },
+  "471087830": {
+    "node_type_id": [
+      471087830
+    ],
+    "pop_name": "i6Pvalb",
+    "location": "VisL6"
+  },
+  "321708130": {
+    "node_type_id": [
+      481093525
+    ],
+    "pop_name": "i6Pvalb",
+    "location": "VisL6"
+  },
+  "478828646": {
+    "node_type_id": [
+      478828646
+    ],
+    "pop_name": "i6Pvalb",
+    "location": "VisL6"
+  },
+  "478058328": {
+    "node_type_id": [
+      478058328
+    ],
+    "pop_name": "i6Pvalb",
+    "location": "VisL6"
+  },
+  "100000103": {
+    "node_type_id": [
+      471087830,
+      481093525,
+      478828646,
+      478058328
+    ],
+    "proportions": [
+      0.6852572416774751,
+      0.1511024643320363,
+      0.10354517942066581,
+      0.06009511456982274
+    ],
+    "pop_name": "i6Pvalb",
+    "location": "VisL6"
+  },
+  "476754635": {
+    "node_type_id": [
+      504608602
+    ],
+    "pop_name": "i6Sst",
+    "location": "VisL6"
+  },
+  "313862306": {
+    "node_type_id": [
+      328549885
+    ],
+    "pop_name": "i6Sst",
+    "location": "VisL6"
+  },
+  "473564515": {
+    "node_type_id": [
+      473564515
+    ],
+    "pop_name": "i6Sst",
+    "location": "VisL6"
+  },
+  "476104386": {
+    "node_type_id": [
+      476104386
+    ],
+    "pop_name": "i6Sst",
+    "location": "VisL6"
+  },
+  "100000120": {
+    "node_type_id": [
+      504608602,
+      328549885,
+      473564515,
+      476104386
+    ],
+    "proportions": [
+      0.45136186770428016,
+      0.26264591439688717,
+      0.18504107220060528,
+      0.10095114569822741
+    ],
+    "pop_name": "i6Sst",
+    "location": "VisL6"
+  }
+}

@@ -1,0 +1,163 @@
+edge_type_id dynamics_params model_template target_query source_query syn_weight weight_function weight_sigma distance_range target_sections delay
+7066 AMPA_ExcToExc.json exp2syn node_type_id=='471129934'&pop_name=='e5Rbp4' location=='BKG' 1.08903824855e-05 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7067 AMPA_ExcToExc.json exp2syn node_type_id=='471143169'&pop_name=='e5Rbp4' location=='BKG' 3.11851881082e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7068 AMPA_ExcToExc.json exp2syn node_type_id=='471758398'&pop_name=='e5Rbp4' location=='BKG' 4.3969421778599995e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7069 AMPA_ExcToExc.json exp2syn node_type_id=='471767045'&pop_name=='e5Rbp4' location=='BKG' 3.43091177078e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7070 AMPA_ExcToExc.json exp2syn node_type_id=='485574832'&pop_name=='e5Rbp4' location=='BKG' 1.28540355656e-05 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7071 AMPA_ExcToExc.json exp2syn node_type_id=='485835055'&pop_name=='e5Rbp4' location=='BKG' 3.5964928358800005e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7072 AMPA_ExcToExc.json exp2syn node_type_id=='485880739'&pop_name=='e5Rbp4' location=='BKG' 2.8060342949799998e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7073 AMPA_ExcToExc.json exp2syn node_type_id=='486052980'&pop_name=='e5Rbp4' location=='BKG' 2.1996382948799998e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7074 AMPA_ExcToExc.json exp2syn node_type_id=='486110216'&pop_name=='e5Rbp4' location=='BKG' 3.7685220269800002e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7075 AMPA_ExcToExc.json exp2syn node_type_id=='487664663'&pop_name=='e5Rbp4' location=='BKG' 1.25591206244e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7076 AMPA_ExcToExc.json exp2syn node_type_id=='485912047'&pop_name=='e23Cux2' location=='BKG' 0.0006025849113659999 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7077 AMPA_ExcToExc.json exp2syn node_type_id=='487661754'&pop_name=='e23Cux2' location=='BKG' 4.09204006474e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7078 AMPA_ExcToInh.json exp2syn node_type_id=='321708130'&pop_name=='i6Pvalb' location=='BKG' 8.605979290700001e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7079 AMPA_ExcToInh.json exp2syn node_type_id=='466245544'&pop_name=='i6Pvalb' location=='BKG' 0.000114966148259 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7080 AMPA_ExcToInh.json exp2syn node_type_id=='471087830'&pop_name=='i6Pvalb' location=='BKG' 2.06960887089e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7081 AMPA_ExcToInh.json exp2syn node_type_id=='475888653'&pop_name=='i6Pvalb' location=='BKG' 0.00012006742058899999 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7082 AMPA_ExcToInh.json exp2syn node_type_id=='478058328'&pop_name=='i6Pvalb' location=='BKG' 4.10580800351e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7083 AMPA_ExcToInh.json exp2syn node_type_id=='478828646'&pop_name=='i6Pvalb' location=='BKG' 6.27441422864e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7084 AMPA_ExcToExc.json exp2syn node_type_id=='313862022'&pop_name=='e4Scnn1a' location=='BKG' 0.00014796309583700002 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7085 AMPA_ExcToExc.json exp2syn node_type_id=='314900022'&pop_name=='e4Scnn1a' location=='BKG' 2.3732344940199999e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7086 AMPA_ExcToExc.json exp2syn node_type_id=='320668879'&pop_name=='e4Scnn1a' location=='BKG' 0.00010460466117399999 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7087 AMPA_ExcToExc.json exp2syn node_type_id=='324521027'&pop_name=='e4Scnn1a' location=='BKG' 0.000102697275052 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7088 AMPA_ExcToExc.json exp2syn node_type_id=='348592897'&pop_name=='e4Scnn1a' location=='BKG' 4.54803634403e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7089 AMPA_ExcToExc.json exp2syn node_type_id=='395830185'&pop_name=='e4Scnn1a' location=='BKG' 1.6157472386799998e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7090 AMPA_ExcToExc.json exp2syn node_type_id=='469798159'&pop_name=='e4Scnn1a' location=='BKG' 2.6050663404899997e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7091 AMPA_ExcToExc.json exp2syn node_type_id=='476126528'&pop_name=='e4Scnn1a' location=='BKG' 1.08226473958e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7092 AMPA_ExcToExc.json exp2syn node_type_id=='476218657'&pop_name=='e4Scnn1a' location=='BKG' 2.16726862738e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7093 AMPA_ExcToInh.json exp2syn node_type_id=='341442651'&pop_name=='i23Pvalb' location=='BKG' 0.000411199213436 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7094 AMPA_ExcToInh.json exp2syn node_type_id=='471077468'&pop_name=='i23Pvalb' location=='BKG' 0.000124348268762 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7095 AMPA_ExcToInh.json exp2syn node_type_id=='484635029'&pop_name=='i23Pvalb' location=='BKG' 8.63589187888e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7096 AMPA_ExcToInh.json exp2syn node_type_id=='488501071'&pop_name=='i23Pvalb' location=='BKG' 0.0006396414745800001 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7097 AMPA_ExcToExc.json exp2syn node_type_id=='477135941'&pop_name=='e4other' location=='BKG' 2.88072552644e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7098 AMPA_ExcToExc.json exp2syn node_type_id=='483061182'&pop_name=='e4other' location=='BKG' 1.08544702847e-05 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7099 AMPA_ExcToExc.json exp2syn node_type_id=='485574721'&pop_name=='e4other' location=='BKG' 0.00041795757262699996 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7100 AMPA_ExcToExc.json exp2syn node_type_id=='485909730'&pop_name=='e4other' location=='BKG' 3.56875366198e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7101 AMPA_ExcToExc.json exp2syn node_type_id=='486146717'&pop_name=='e4other' location=='BKG' 4.49498536936e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7102 AMPA_ExcToExc.json exp2syn node_type_id=='487601493'&pop_name=='e4other' location=='BKG' 7.51385109719e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7103 AMPA_ExcToInh.json exp2syn node_type_id=='313861608'&pop_name=='i5Pvalb' location=='BKG' 8.47346785379e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7104 AMPA_ExcToInh.json exp2syn node_type_id=='321023397'&pop_name=='i5Pvalb' location=='BKG' 1.7484873836199999e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7105 AMPA_ExcToInh.json exp2syn node_type_id=='330080937'&pop_name=='i5Pvalb' location=='BKG' 4.6061197338199996e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7106 AMPA_ExcToInh.json exp2syn node_type_id=='333785962'&pop_name=='i5Pvalb' location=='BKG' 1.01433569258e-09 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7107 AMPA_ExcToInh.json exp2syn node_type_id=='396608557'&pop_name=='i5Pvalb' location=='BKG' 1.3963791926e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7108 AMPA_ExcToInh.json exp2syn node_type_id=='469610831'&pop_name=='i5Pvalb' location=='BKG' 3.7093520011599994e-11 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7109 AMPA_ExcToInh.json exp2syn node_type_id=='471077857'&pop_name=='i5Pvalb' location=='BKG' 5.931771095459999e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7110 AMPA_ExcToInh.json exp2syn node_type_id=='471085676'&pop_name=='i5Pvalb' location=='BKG' 8.13389673429e-12 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7111 AMPA_ExcToInh.json exp2syn node_type_id=='478793814'&pop_name=='i5Pvalb' location=='BKG' 1.22243297143e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7112 AMPA_ExcToInh.json exp2syn node_type_id=='482516713'&pop_name=='i5Pvalb' location=='BKG' 8.905354866010001e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7113 AMPA_ExcToInh.json exp2syn node_type_id=='484742372'&pop_name=='i5Pvalb' location=='BKG' 4.4983153779100003e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7114 AMPA_ExcToInh.json exp2syn node_type_id=='486783119'&pop_name=='i5Pvalb' location=='BKG' 1.0867135272399999e-10 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7115 AMPA_ExcToInh.json exp2syn node_type_id=='318331342'&pop_name=='i4Pvalb' location=='BKG' 9.34955530842e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7116 AMPA_ExcToInh.json exp2syn node_type_id=='333604946'&pop_name=='i4Pvalb' location=='BKG' 0.00010803359641399999 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7117 AMPA_ExcToInh.json exp2syn node_type_id=='487667205'&pop_name=='i4Pvalb' location=='BKG' 2.37657238044e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7118 AMPA_ExcToExc.json exp2syn node_type_id=='314642645'&pop_name=='e4Rorb' location=='BKG' 9.12610832095e-08 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7119 AMPA_ExcToExc.json exp2syn node_type_id=='324025371'&pop_name=='e4Rorb' location=='BKG' 2.33252407454e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7120 AMPA_ExcToExc.json exp2syn node_type_id=='329550137'&pop_name=='e4Rorb' location=='BKG' 3.26294632394e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7121 AMPA_ExcToExc.json exp2syn node_type_id=='473020156'&pop_name=='e4Rorb' location=='BKG' 2.35659688567e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7122 AMPA_ExcToExc.json exp2syn node_type_id=='476616076'&pop_name=='e4Rorb' location=='BKG' 1.1759330164200001e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7123 AMPA_ExcToExc.json exp2syn node_type_id=='479179020'&pop_name=='e4Rorb' location=='BKG' 2.59048905485e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7124 AMPA_ExcToExc.json exp2syn node_type_id=='480087928'&pop_name=='e4Rorb' location=='BKG' 1.23906491177e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7125 AMPA_ExcToExc.json exp2syn node_type_id=='480124551'&pop_name=='e4Rorb' location=='BKG' 1.69043404589e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7126 AMPA_ExcToExc.json exp2syn node_type_id=='484564503'&pop_name=='e4Rorb' location=='BKG' 4.06974373835e-05 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7127 AMPA_ExcToExc.json exp2syn node_type_id=='484679812'&pop_name=='e4Rorb' location=='BKG' 1.50521115117e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7128 AMPA_ExcToExc.json exp2syn node_type_id=='485836906'&pop_name=='e4Rorb' location=='BKG' 5.96221643336e-08 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7129 AMPA_ExcToExc.json exp2syn node_type_id=='486502127'&pop_name=='e4Rorb' location=='BKG' 5.21628191549e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7130 AMPA_ExcToInh.json exp2syn node_type_id=='474626527'&pop_name=='i4Htr3a' location=='BKG' 0.00016345984188999998 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7131 AMPA_ExcToInh.json exp2syn node_type_id=='313862167'&pop_name=='i4Sst' location=='BKG' 0.000162911596495 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7132 AMPA_ExcToInh.json exp2syn node_type_id=='473016550'&pop_name=='i4Sst' location=='BKG' 0.000541938022949 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7133 AMPA_ExcToInh.json exp2syn node_type_id=='485058595'&pop_name=='i4Sst' location=='BKG' 0.000488084241135 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7134 AMPA_ExcToExc.json exp2syn node_type_id=='318733871'&pop_name=='e4Nr5a1' location=='BKG' 6.45497642608e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7135 AMPA_ExcToExc.json exp2syn node_type_id=='318808427'&pop_name=='e4Nr5a1' location=='BKG' 8.923984297210001e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7136 AMPA_ExcToExc.json exp2syn node_type_id=='321906005'&pop_name=='e4Nr5a1' location=='BKG' 0.000496764761999 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7137 AMPA_ExcToExc.json exp2syn node_type_id=='370351753'&pop_name=='e4Nr5a1' location=='BKG' 7.23018451543e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7138 AMPA_ExcToExc.json exp2syn node_type_id=='386049446'&pop_name=='e4Nr5a1' location=='BKG' 5.69716655102e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7139 AMPA_ExcToExc.json exp2syn node_type_id=='397351623'&pop_name=='e4Nr5a1' location=='BKG' 8.87646742159e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7140 AMPA_ExcToExc.json exp2syn node_type_id=='422738880'&pop_name=='e4Nr5a1' location=='BKG' 3.17393521863e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7141 AMPA_ExcToExc.json exp2syn node_type_id=='475459689'&pop_name=='e4Nr5a1' location=='BKG' 8.66891006902e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7142 AMPA_ExcToExc.json exp2syn node_type_id=='476455864'&pop_name=='e4Nr5a1' location=='BKG' 6.0295255118e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7143 AMPA_ExcToExc.json exp2syn node_type_id=='476457450'&pop_name=='e4Nr5a1' location=='BKG' 3.6285060701300004e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7144 AMPA_ExcToExc.json exp2syn node_type_id=='314804042'&pop_name=='e5noRbp4' location=='BKG' 2.19446294981e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7145 AMPA_ExcToExc.json exp2syn node_type_id=='314822529'&pop_name=='e5noRbp4' location=='BKG' 8.50418991462e-05 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7146 AMPA_ExcToExc.json exp2syn node_type_id=='314831019'&pop_name=='e5noRbp4' location=='BKG' 3.2328876098799997e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7147 AMPA_ExcToExc.json exp2syn node_type_id=='320207387'&pop_name=='e5noRbp4' location=='BKG' 4.87421651171e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7148 AMPA_ExcToExc.json exp2syn node_type_id=='323865917'&pop_name=='e5noRbp4' location=='BKG' 1.8150290544599998e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7149 AMPA_ExcToExc.json exp2syn node_type_id=='324025297'&pop_name=='e5noRbp4' location=='BKG' 1.8366257082400002e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7150 AMPA_ExcToExc.json exp2syn node_type_id=='349621141'&pop_name=='e5noRbp4' location=='BKG' 5.07176531485e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7151 AMPA_ExcToExc.json exp2syn node_type_id=='354190013'&pop_name=='e5noRbp4' location=='BKG' 8.34070647575e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7152 AMPA_ExcToExc.json exp2syn node_type_id=='468120757'&pop_name=='e5noRbp4' location=='BKG' 5.3440996316099995e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7153 AMPA_ExcToExc.json exp2syn node_type_id=='468193142'&pop_name=='e5noRbp4' location=='BKG' 8.26948906135e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7154 AMPA_ExcToExc.json exp2syn node_type_id=='469793303'&pop_name=='e5noRbp4' location=='BKG' 1.31435227745e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7155 AMPA_ExcToExc.json exp2syn node_type_id=='473601979'&pop_name=='e5noRbp4' location=='BKG' 3.84847203435e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7156 AMPA_ExcToExc.json exp2syn node_type_id=='476048909'&pop_name=='e5noRbp4' location=='BKG' 4.55283152296e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7157 AMPA_ExcToExc.json exp2syn node_type_id=='476049169'&pop_name=='e5noRbp4' location=='BKG' 8.81039856878e-05 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7158 AMPA_ExcToExc.json exp2syn node_type_id=='476131588'&pop_name=='e5noRbp4' location=='BKG' 3.54327619287e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7159 AMPA_ExcToExc.json exp2syn node_type_id=='476216637'&pop_name=='e5noRbp4' location=='BKG' 0.00010937202952600001 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7160 AMPA_ExcToExc.json exp2syn node_type_id=='480116737'&pop_name=='e5noRbp4' location=='BKG' 4.836087944020001e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7161 AMPA_ExcToExc.json exp2syn node_type_id=='480169178'&pop_name=='e5noRbp4' location=='BKG' 3.4217696507e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7162 AMPA_ExcToExc.json exp2syn node_type_id=='480351780'&pop_name=='e5noRbp4' location=='BKG' 9.9925332695e-07 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7163 AMPA_ExcToExc.json exp2syn node_type_id=='480353286'&pop_name=='e5noRbp4' location=='BKG' 5.61744545055e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7164 AMPA_ExcToExc.json exp2syn node_type_id=='466632464'&pop_name=='e6Ntsr1' location=='BKG' 3.00007716018e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7165 AMPA_ExcToExc.json exp2syn node_type_id=='471410185'&pop_name=='e6Ntsr1' location=='BKG' 1.9043599696400002e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7166 AMPA_ExcToExc.json exp2syn node_type_id=='471786879'&pop_name=='e6Ntsr1' location=='BKG' 3.1860339713e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7167 AMPA_ExcToExc.json exp2syn node_type_id=='471789504'&pop_name=='e6Ntsr1' location=='BKG' 1.1479310747399999e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7168 AMPA_ExcToExc.json exp2syn node_type_id=='471819401'&pop_name=='e6Ntsr1' location=='BKG' 3.75831130288e-06 wmax NULL "[0.0, 150.0]" "[""basal"", ""apical""]" 1.7
+7169 AMPA_ExcToInh.json exp2syn node_type_id=='478110866'&pop_name=='i6Htr3a' location=='BKG' 4.90650056929e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7170 AMPA_ExcToInh.json exp2syn node_type_id=='481001895'&pop_name=='i6Htr3a' location=='BKG' 1.6919188933e-06 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7171 AMPA_ExcToInh.json exp2syn node_type_id=='481136138'&pop_name=='i6Htr3a' location=='BKG' 2.69561307658e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7172 AMPA_ExcToInh.json exp2syn node_type_id=='482644550'&pop_name=='i6Htr3a' location=='BKG' 4.90650056929e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7173 AMPA_ExcToInh.json exp2syn node_type_id=='327962063'&pop_name=='i23Htr3a' location=='BKG' 6.94902295355e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7174 AMPA_ExcToInh.json exp2syn node_type_id=='464188580'&pop_name=='i23Htr3a' location=='BKG' 0.00026667169313299995 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7175 AMPA_ExcToInh.json exp2syn node_type_id=='469753383'&pop_name=='i23Htr3a' location=='BKG' 0.000445781827203 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7176 AMPA_ExcToInh.json exp2syn node_type_id=='473943881'&pop_name=='i23Htr3a' location=='BKG' 0.00049789180971 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7177 AMPA_ExcToInh.json exp2syn node_type_id=='474267418'&pop_name=='i23Htr3a' location=='BKG' 7.47840660728e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7178 AMPA_ExcToInh.json exp2syn node_type_id=='475622680'&pop_name=='i23Htr3a' location=='BKG' 6.25080767033e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7179 AMPA_ExcToInh.json exp2syn node_type_id=='475622793'&pop_name=='i23Htr3a' location=='BKG' 0.000240252609232 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7180 AMPA_ExcToInh.json exp2syn node_type_id=='479220013'&pop_name=='i23Htr3a' location=='BKG' 0.000622934000301 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7181 AMPA_ExcToInh.json exp2syn node_type_id=='324493977'&pop_name=='i23Sst' location=='BKG' 0.000189571632138 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7182 AMPA_ExcToInh.json exp2syn node_type_id=='473540161'&pop_name=='i23Sst' location=='BKG' 6.44995619565e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7183 AMPA_ExcToInh.json exp2syn node_type_id=='475068599'&pop_name=='i23Sst' location=='BKG' 0.000130733654373 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7184 AMPA_ExcToInh.json exp2syn node_type_id=='476686112'&pop_name=='i23Sst' location=='BKG' 5.33194772079e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7185 AMPA_ExcToInh.json exp2syn node_type_id=='478110866'&pop_name=='i5Htr3a' location=='BKG' 5.02902030052e-07 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7186 AMPA_ExcToInh.json exp2syn node_type_id=='481001895'&pop_name=='i5Htr3a' location=='BKG' 7.255974158e-07 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7187 AMPA_ExcToInh.json exp2syn node_type_id=='481136138'&pop_name=='i5Htr3a' location=='BKG' 7.674890601219999e-06 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7188 AMPA_ExcToInh.json exp2syn node_type_id=='482644550'&pop_name=='i5Htr3a' location=='BKG' 3.44570539341e-06 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7189 AMPA_ExcToInh.json exp2syn node_type_id=='313862306'&pop_name=='i6Sst' location=='BKG' 1.60654763925e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7190 AMPA_ExcToInh.json exp2syn node_type_id=='323452196'&pop_name=='i6Sst' location=='BKG' 0.00027790270035600004 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7191 AMPA_ExcToInh.json exp2syn node_type_id=='473564515'&pop_name=='i6Sst' location=='BKG' 0.00016480367209 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7192 AMPA_ExcToInh.json exp2syn node_type_id=='476104386'&pop_name=='i6Sst' location=='BKG' 4.12880409602e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7193 AMPA_ExcToInh.json exp2syn node_type_id=='476754635'&pop_name=='i6Sst' location=='BKG' 2.38618292655e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7194 AMPA_ExcToInh.json exp2syn node_type_id=='323475862'&pop_name=='i5Sst' location=='BKG' 6.251492472899999e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7195 AMPA_ExcToInh.json exp2syn node_type_id=='324266189'&pop_name=='i5Sst' location=='BKG' 0.000402366989674 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7196 AMPA_ExcToInh.json exp2syn node_type_id=='324466858'&pop_name=='i5Sst' location=='BKG' 0.000402366989674 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7197 AMPA_ExcToInh.json exp2syn node_type_id=='464198958'&pop_name=='i5Sst' location=='BKG' 3.97180090017e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7198 AMPA_ExcToInh.json exp2syn node_type_id=='464212183'&pop_name=='i5Sst' location=='BKG' 0.000402366989674 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7199 AMPA_ExcToInh.json exp2syn node_type_id=='466664172'&pop_name=='i5Sst' location=='BKG' 0.000402366989674 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7200 AMPA_ExcToInh.json exp2syn node_type_id=='473543792'&pop_name=='i5Sst' location=='BKG' 0.000402366989674 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7201 AMPA_ExcToInh.json exp2syn node_type_id=='475057898'&pop_name=='i5Sst' location=='BKG' 0.000402366989674 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7202 AMPA_ExcToInh.json exp2syn node_type_id=='475517090'&pop_name=='i5Sst' location=='BKG' 1.53719839271e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7203 AMPA_ExcToInh.json exp2syn node_type_id=='478396248'&pop_name=='i5Sst' location=='BKG' 3.38843435573e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7204 AMPA_ExcToInh.json exp2syn node_type_id=='482690728'&pop_name=='i5Sst' location=='BKG' 2.66028711514e-05 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7205 AMPA_ExcToInh.json exp2syn node_type_id=='475585413'&pop_name=='i1Htr3a' location=='BKG' 0.00023428070968 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7206 AMPA_ExcToInh.json exp2syn node_type_id=='478107198'&pop_name=='i1Htr3a' location=='BKG' 0.000294566060122 wmax NULL "[0.0, 1e+20]" "[""somatic"", ""basal""]" 1.7
+7207 instanteneousExc.json NULL node_type_id=='100000101'&pop_name=='LIFe5Rbp4' location=='BKG' 0.00011370086543200002 wmax NULL NULL NULL 1.7
+7208 instanteneousExc.json NULL node_type_id=='100000102'&pop_name=='LIFe23Cux2' location=='BKG' 3.57389460956e-05 wmax NULL NULL NULL 1.7
+7209 instanteneousExc.json NULL node_type_id=='100000103'&pop_name=='LIFi6Pvalb' location=='BKG' 3.08591847924e-05 wmax NULL NULL NULL 1.7
+7210 instanteneousExc.json NULL node_type_id=='100000104'&pop_name=='LIFe4Scnn1a' location=='BKG' 4.17038129696e-05 wmax NULL NULL NULL 1.7
+7211 instanteneousExc.json NULL node_type_id=='100000105'&pop_name=='LIFi23Pvalb' location=='BKG' 0.000228971696428 wmax NULL NULL NULL 1.7
+7212 instanteneousExc.json NULL node_type_id=='100000110'&pop_name=='LIFe4other' location=='BKG' 7.12400071838e-05 wmax NULL NULL NULL 1.7
+7213 instanteneousExc.json NULL node_type_id=='100000111'&pop_name=='LIFi5Pvalb' location=='BKG' 2.87055018634e-05 wmax NULL NULL NULL 1.7
+7214 instanteneousExc.json NULL node_type_id=='100000112'&pop_name=='LIFi4Pvalb' location=='BKG' 9.1594520656e-06 wmax NULL NULL NULL 1.7
+7215 instanteneousExc.json NULL node_type_id=='100000108'&pop_name=='LIFe4Rorb' location=='BKG' 5.88819972698e-05 wmax NULL NULL NULL 1.7
+7216 instanteneousExc.json NULL node_type_id=='100000114'&pop_name=='LIFi4Htr3a' location=='BKG' 0.00030065204862 wmax NULL NULL NULL 1.7
+7217 instanteneousExc.json NULL node_type_id=='100000115'&pop_name=='LIFi4Sst' location=='BKG' 0.000167082839483 wmax NULL NULL NULL 1.7
+7218 instanteneousExc.json NULL node_type_id=='100000116'&pop_name=='LIFe4Nr5a1' location=='BKG' 5.02836778418e-05 wmax NULL NULL NULL 1.7
+7219 instanteneousExc.json NULL node_type_id=='100000119'&pop_name=='LIFe5noRbp4' location=='BKG' 0.00017466060485199999 wmax NULL NULL NULL 1.7
+7220 instanteneousExc.json NULL node_type_id=='100000121'&pop_name=='LIFe6Ntsr1' location=='BKG' 0.00012577956139 wmax NULL NULL NULL 1.7
+7221 instanteneousExc.json NULL node_type_id=='100000106'&pop_name=='LIFi6Htr3a' location=='BKG' 0.000119237777039 wmax NULL NULL NULL 1.7
+7222 instanteneousExc.json NULL node_type_id=='100000107'&pop_name=='LIFi23Htr3a' location=='BKG' 0.000275094735746 wmax NULL NULL NULL 1.7
+7223 instanteneousExc.json NULL node_type_id=='100000113'&pop_name=='LIFi23Sst' location=='BKG' 0.00029195035382200004 wmax NULL NULL NULL 1.7
+7224 instanteneousExc.json NULL node_type_id=='100000109'&pop_name=='LIFi5Htr3a' location=='BKG' 0.00012224801068500002 wmax NULL NULL NULL 1.7
+7225 instanteneousExc.json NULL node_type_id=='100000120'&pop_name=='LIFi6Sst' location=='BKG' 0.00019334279733000003 wmax NULL NULL NULL 1.7
+7226 instanteneousExc.json NULL node_type_id=='100000118'&pop_name=='LIFi5Sst' location=='BKG' 0.00018161753256 wmax NULL NULL NULL 1.7
+7227 instanteneousExc.json NULL node_type_id=='100000117'&pop_name=='LIFi1Htr3a' location=='BKG' 0.00030276355946 wmax NULL NULL NULL 1.7

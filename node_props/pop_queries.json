@@ -1,0 +1,157 @@
+{
+  "radial_range":[0, 845],
+  "pops": {
+    "i1Htr3a": {
+      "ncells":4363,
+      "labels": {"ei": "i", "location": "VisL1"},
+      "depth_range": [50, 100],
+      "criteria": {"ei": "i", "location": "VisL1", "cre_line": ["Htr3a"], "express": true}
+    },
+
+
+    "e23Cux2": {
+      "ncells":56057,
+      "labels": {"ei": "e", "location": "VisL23"},
+      "depth_range": [100, 310],
+      "criteria":{"ei": "e", "location": "VisL2/3", "cre_line": ["Cux2"], "express": true}
+    },
+
+    "i23Pvalb": {
+      "ncells":2927,
+      "labels": {"ei": "i", "location": "VisL23"},
+      "depth_range": [100, 310],
+      "criteria":{"ei": "i", "location": "VisL2/3", "cre_line": ["Pvalb"], "express": true}
+    },
+
+    "i23Sst": {
+      "ncells":2120,
+      "labels": {"ei": "i", "location": "VisL23"},
+      "depth_range": [100, 310],
+      "criteria":{"ei": "i", "location": "VisL2/3", "cre_line": ["Sst"], "express": true}
+    },
+
+    "i23Htr3a": {
+      "ncells":4845,
+      "labels": {"ei": "i", "location": "VisL23"},
+      "depth_range": [100, 310],
+      "criteria":{"ei": "i", "location": "VisL2/3", "cre_line": ["Htr3a"], "express": true}
+    },
+
+    "e4Scnn1a": {
+      "ncells":13728,
+      "labels": {"ei": "e", "location": "VisL4"},
+      "depth_range":[310, 430],
+      "criteria": {"ei": "e", "location": "VisL4", "cre_line": ["Scnn1a"], "express": true}
+    },
+
+    "e4Rorb": {
+      "ncells":11898,
+      "labels": {"ei": "e", "location": "VisL4"},
+      "depth_range": [310, 430],
+      "criteria":{"ei": "e", "location": "VisL4", "cre_line": ["Rorb"], "express": true}
+    },
+
+    "e4Nr5a1": {
+      "ncells":5491,
+      "labels": {"ei": "e", "location": "VisL4"},
+      "depth_range": [310, 430],
+      "criteria":{"ei": "e", "location": "VisL4", "cre_line": ["Nr5a1"], "express": true}
+    },
+
+    "e4other": {
+      "ncells":14644,
+      "labels": {"ei": "e", "location": "VisL4"},
+      "depth_range": [310, 430],
+      "criteria":{"ei": "e", "location": "VisL4", "cre_line": ["Nr5a1", "Rorb", "Scnn1a"], "express": false}
+    },
+
+
+    "i4Pvalb": {
+      "ncells":4461,
+      "labels": {"ei": "i", "location": "VisL4"},
+      "depth_range": [310, 430],
+      "criteria":{"ei": "i", "location": "VisL4", "cre_line": ["Pvalb"], "express": true}
+    },
+
+    "i4Sst": {
+      "ncells":2384,
+      "labels": {"ei": "i", "location": "VisL4"},
+      "depth_range": [310, 430],
+      "criteria":{"ei": "i", "location": "VisL4", "cre_line": ["Sst"], "express": true}
+    },
+
+    "i4Htr3a": {
+      "ncells":1231,
+      "labels": {"ei": "i", "location": "VisL4"},
+      "depth_range": [310, 430],
+      "criteria":{"ei": "i", "location": "VisL4", "cre_line": ["Htr3a"], "express": true}
+    },
+
+    "e5Rbp4": {
+      "ncells":26846,
+      "labels": {"ei": "e", "location": "VisL5"},
+      "depth_range": [430, 650],
+      "criteria":{"ei": "e", "location": "VisL5", "cre_line": ["Rbp4"], "express": true}
+    },
+
+    "e5noRbp4": {
+      "ncells":6712,
+      "labels": {"ei": "e", "location": "VisL5"},
+      "depth_range": [430, 650],
+      "criteria":{"ei": "e", "location": "VisL5", "cre_line": ["Rbp4"], "express": false}
+    },
+
+
+    "i5Pvalb": {
+      "ncells":2876,
+      "labels": {"ei": "i", "location": "VisL5"},
+      "depth_range": [430, 650],
+      "criteria":{"ei": "i", "location": "VisL5", "cre_line": ["Pvalb"], "express": true}
+    },
+
+    "i5Sst": {
+      "ncells":2538,
+      "labels": {"ei": "i", "location": "VisL5"},
+      "depth_range": [430, 650],
+      "criteria":{"ei": "i", "location": "VisL5", "cre_line": ["Sst"], "express": true}
+    },
+
+    "i5Htr3a": {
+      "ncells":508,
+      "labels": {"ei": "i", "location": "VisL5"},
+      "depth_range": [430, 650],
+      "criteria":{"ei": "i", "location": "VisL5", "cre_line": ["Htr3a"], "express": true}
+    },
+
+    "e6Ntsr1": {
+      "ncells":57202,
+      "labels": {"ei": "e", "location": "VisL6"},
+      "depth_range": [650, 850],
+      "criteria":{"ei": "e", "location": "VisL6a", "cre_line": ["Ntsr1"], "express": true}
+    },
+
+
+    "i6Pvalb": {
+      "ncells":4626,
+      "labels": {"ei": "i", "location": "VisL6"},
+      "depth_range": [650, 850],
+      "criteria":{"ei": "i", "location": "VisL6a", "cre_line": ["Pvalb"], "express": true}
+    },
+
+    "i6Sst": {
+      "ncells":4626,
+      "labels": {"ei": "i", "location": "VisL6"},
+      "depth_range": [650, 850],
+      "criteria":{"ei": "i", "location": "VisL6a", "cre_line": ["Sst"], "express": true}
+    },
+
+    "i6Htr3a": {
+      "ncells":841,
+      "labels": {"ei": "i", "location": "VisL6"},
+      "depth_range": [650, 850],
+      "criteria": {"ei": "i", "location": "VisL5", "cre_line": ["Htr3a"], "express": true}
+    }
+  }
+}
+
+

@@ -1,0 +1,1112 @@
+{
+  "locations": {
+    "VisL1": {
+      "i1Htr3a": {
+        "ncells": 4363,
+        "ei": "i",
+        "depth_range": [
+          50.0,
+          100.0
+        ],
+        "models": [
+          {
+            "N": 4241,
+            "proportion": 0.9720375888150355,
+            "node_type_id": 475585413,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "475585413_glif_lif_asc_config.json"
+          },
+          {
+            "N": 122,
+            "proportion": 0.027962411184964474,
+            "node_type_id": 478107198,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478107198_glif_lif_asc_config.json"
+          }
+        ]
+      }
+    },
+    "VisL23": {
+      "e23Cux2": {
+        "ncells": 56057,
+        "ei": "e",
+        "depth_range": [
+          100.0,
+          310.0
+        ],
+        "models": [
+          {
+            "N": 56057,
+            "proportion": 1.0,
+            "node_type_id": 487661754,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "487661754_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i23Htr3a": {
+        "ncells": 4845,
+        "ei": "i",
+        "depth_range": [
+          100.0,
+          310.0
+        ],
+        "models": [
+          {
+            "N": 516,
+            "proportion": 0.1065015479876161,
+            "node_type_id": 327962063,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "327962063_glif_lif_asc_config.json"
+          },
+          {
+            "N": 652,
+            "proportion": 0.1345717234262126,
+            "node_type_id": 464188580,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "464188580_glif_lif_asc_config.json"
+          },
+          {
+            "N": 613,
+            "proportion": 0.1265221878224974,
+            "node_type_id": 469753383,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "469753383_glif_lif_asc_config.json"
+          },
+          {
+            "N": 18,
+            "proportion": 0.0037151702786377707,
+            "node_type_id": 473943881,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "473943881_glif_lif_asc_config.json"
+          },
+          {
+            "N": 556,
+            "proportion": 0.11475748194014448,
+            "node_type_id": 474267418,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "474267418_glif_lif_asc_config.json"
+          },
+          {
+            "N": 591,
+            "proportion": 0.12198142414860681,
+            "node_type_id": 475622680,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "475622680_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1234,
+            "proportion": 0.2546955624355005,
+            "node_type_id": 475622793,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "475622793_glif_lif_asc_config.json"
+          },
+          {
+            "N": 665,
+            "proportion": 0.13725490196078433,
+            "node_type_id": 479220013,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "479220013_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i23Pvalb": {
+        "ncells": 2927,
+        "ei": "i",
+        "depth_range": [
+          100.0,
+          310.0
+        ],
+        "models": [
+          {
+            "N": 1285,
+            "proportion": 0.43901605739665184,
+            "node_type_id": 341442651,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "341442651_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1226,
+            "proportion": 0.41885889989750597,
+            "node_type_id": 484635029,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "484635029_glif_lif_asc_config.json"
+          },
+          {
+            "N": 416,
+            "proportion": 0.14212504270584217,
+            "node_type_id": 488501071,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "488501071_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i23Sst": {
+        "ncells": 2120,
+        "ei": "i",
+        "depth_range": [
+          100.0,
+          310.0
+        ],
+        "models": [
+          {
+            "N": 1516,
+            "proportion": 0.7150943396226415,
+            "node_type_id": 324266189,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "324266189_glif_lif_asc_config.json"
+          },
+          {
+            "N": 366,
+            "proportion": 0.17264150943396225,
+            "node_type_id": 324493977,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "324493977_glif_lif_asc_config.json"
+          },
+          {
+            "N": 238,
+            "proportion": 0.11226415094339623,
+            "node_type_id": 476686112,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476686112_glif_lif_asc_config.json"
+          }
+        ]
+      }
+    },
+    "VisL4": {
+      "e4Nr5a1": {
+        "ncells": 5491,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "N": 638,
+            "proportion": 0.11619012930249499,
+            "node_type_id": 318733871,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "318733871_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1008,
+            "proportion": 0.1835731196503369,
+            "node_type_id": 318808427,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "318808427_glif_lif_asc_config.json"
+          },
+          {
+            "N": 106,
+            "proportion": 0.019304316153706064,
+            "node_type_id": 370351753,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "370351753_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1698,
+            "proportion": 0.30923329083955564,
+            "node_type_id": 386049446,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "386049446_glif_lif_asc_config.json"
+          },
+          {
+            "N": 9,
+            "proportion": 0.0016390457111637225,
+            "node_type_id": 386970660,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "386970660_glif_lif_asc_config.json"
+          },
+          {
+            "N": 452,
+            "proportion": 0.08231651793844473,
+            "node_type_id": 422738880,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "422738880_glif_lif_asc_config.json"
+          },
+          {
+            "N": 172,
+            "proportion": 0.03132398470224003,
+            "node_type_id": 476451456,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476451456_glif_lif_asc_config.json"
+          },
+          {
+            "N": 361,
+            "proportion": 0.0657439446366782,
+            "node_type_id": 476457450,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476457450_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1047,
+            "proportion": 0.1906756510653797,
+            "node_type_id": 482809953,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "482809953_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "e4Rorb": {
+        "ncells": 11898,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "N": 2430,
+            "proportion": 0.2042360060514372,
+            "node_type_id": 314642645,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "314642645_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1507,
+            "proportion": 0.1266599428475374,
+            "node_type_id": 324025371,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "324025371_glif_lif_asc_config.json"
+          },
+          {
+            "N": 818,
+            "proportion": 0.06875105059673894,
+            "node_type_id": 473020156,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "473020156_glif_lif_asc_config.json"
+          },
+          {
+            "N": 9,
+            "proportion": 0.0007564296520423601,
+            "node_type_id": 479179020,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "479179020_glif_lif_asc_config.json"
+          },
+          {
+            "N": 630,
+            "proportion": 0.0529500756429652,
+            "node_type_id": 479225080,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "479225080_glif_lif_asc_config.json"
+          },
+          {
+            "N": 726,
+            "proportion": 0.06101865859808371,
+            "node_type_id": 480087928,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480087928_glif_lif_asc_config.json"
+          },
+          {
+            "N": 242,
+            "proportion": 0.020339552866027902,
+            "node_type_id": 480122859,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480122859_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1288,
+            "proportion": 0.1082534879811733,
+            "node_type_id": 480124551,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480124551_glif_lif_asc_config.json"
+          },
+          {
+            "N": 114,
+            "proportion": 0.009581442259203227,
+            "node_type_id": 484679812,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "484679812_glif_lif_asc_config.json"
+          },
+          {
+            "N": 4070,
+            "proportion": 0.34207429820137836,
+            "node_type_id": 485836906,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "485836906_glif_lif_asc_config.json"
+          },
+          {
+            "N": 64,
+            "proportion": 0.005379055303412338,
+            "node_type_id": 501848315,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "501848315_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "e4Scnn1a": {
+        "ncells": 13728,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "N": 1729,
+            "proportion": 0.1259469696969697,
+            "node_type_id": 314900022,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "314900022_glif_lif_asc_config.json"
+          },
+          {
+            "N": 4169,
+            "proportion": 0.3036858974358974,
+            "node_type_id": 395830185,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "395830185_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1086,
+            "proportion": 0.07910839160839161,
+            "node_type_id": 476056333,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476056333_glif_lif_asc_config.json"
+          },
+          {
+            "N": 961,
+            "proportion": 0.07000291375291376,
+            "node_type_id": 476218657,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476218657_glif_lif_asc_config.json"
+          },
+          {
+            "N": 5514,
+            "proportion": 0.40166083916083917,
+            "node_type_id": 517982558,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "517982558_glif_lif_asc_config.json"
+          },
+          {
+            "N": 269,
+            "proportion": 0.019594988344988344,
+            "node_type_id": 518290966,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "518290966_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "e4other": {
+        "ncells": 14644,
+        "ei": "e",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "N": 2111,
+            "proportion": 0.14415460256760448,
+            "node_type_id": 477135941,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "477135941_glif_lif_asc_config.json"
+          },
+          {
+            "N": 10958,
+            "proportion": 0.7482928161704452,
+            "node_type_id": 483018019,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "483018019_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1500,
+            "proportion": 0.10243102977328598,
+            "node_type_id": 486146717,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "486146717_glif_lif_asc_config.json"
+          },
+          {
+            "N": 53,
+            "proportion": 0.003619229718656105,
+            "node_type_id": 486146828,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "486146828_glif_lif_asc_config.json"
+          },
+          {
+            "N": 22,
+            "proportion": 0.0015023217700081944,
+            "node_type_id": 487601493,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "487601493_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i4Htr3a": {
+        "ncells": 1231,
+        "ei": "i",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "N": 1231,
+            "proportion": 1.0,
+            "node_type_id": 474626527,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "474626527_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i4Pvalb": {
+        "ncells": 4461,
+        "ei": "i",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "N": 4262,
+            "proportion": 0.9553911678995741,
+            "node_type_id": 478958894,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478958894_glif_lif_asc_config.json"
+          },
+          {
+            "N": 199,
+            "proportion": 0.04460883210042591,
+            "node_type_id": 487667205,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "487667205_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i4Sst": {
+        "ncells": 2384,
+        "ei": "i",
+        "depth_range": [
+          310.0,
+          430.0
+        ],
+        "models": [
+          {
+            "N": 875,
+            "proportion": 0.36703020134228187,
+            "node_type_id": 313862167,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "313862167_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1509,
+            "proportion": 0.6329697986577181,
+            "node_type_id": 501282204,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "501282204_glif_lif_asc_config.json"
+          }
+        ]
+      }
+    },
+    "VisL5": {
+      "e5Rbp4": {
+        "ncells": 26846,
+        "ei": "e",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "N": 10497,
+            "proportion": 0.3910079713923862,
+            "node_type_id": 471129934,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "471129934_glif_lif_asc_config.json"
+          },
+          {
+            "N": 3381,
+            "proportion": 0.12594054980257766,
+            "node_type_id": 485574832,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "485574832_glif_lif_asc_config.json"
+          },
+          {
+            "N": 3319,
+            "proportion": 0.12363108098040676,
+            "node_type_id": 485880739,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "485880739_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1287,
+            "proportion": 0.047940102808612085,
+            "node_type_id": 486052980,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "486052980_glif_lif_asc_config.json"
+          },
+          {
+            "N": 375,
+            "proportion": 0.01396856142442077,
+            "node_type_id": 486110216,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "486110216_glif_lif_asc_config.json"
+          },
+          {
+            "N": 9,
+            "proportion": 0.0003352454741860985,
+            "node_type_id": 486176465,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "486176465_glif_lif_asc_config.json"
+          },
+          {
+            "N": 2640,
+            "proportion": 0.09833867242792223,
+            "node_type_id": 487664663,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "487664663_glif_lif_asc_config.json"
+          },
+          {
+            "N": 3190,
+            "proportion": 0.11882589585040602,
+            "node_type_id": 488419491,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "488419491_glif_lif_asc_config.json"
+          },
+          {
+            "N": 22,
+            "proportion": 0.0008194889368993519,
+            "node_type_id": 490916919,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "490916919_glif_lif_asc_config.json"
+          },
+          {
+            "N": 2126,
+            "proportion": 0.07919243090218282,
+            "node_type_id": 507996688,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "507996688_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "e5noRbp4": {
+        "ncells": 6712,
+        "ei": "e",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "N": 241,
+            "proportion": 0.03590584028605483,
+            "node_type_id": 320207387,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "320207387_glif_lif_asc_config.json"
+          },
+          {
+            "N": 319,
+            "proportion": 0.047526817640047674,
+            "node_type_id": 324025297,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "324025297_glif_lif_asc_config.json"
+          },
+          {
+            "N": 693,
+            "proportion": 0.10324791418355185,
+            "node_type_id": 354190013,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "354190013_glif_lif_asc_config.json"
+          },
+          {
+            "N": 306,
+            "proportion": 0.04558998808104887,
+            "node_type_id": 468120757,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "468120757_glif_lif_asc_config.json"
+          },
+          {
+            "N": 271,
+            "proportion": 0.040375446960667465,
+            "node_type_id": 469793303,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "469793303_glif_lif_asc_config.json"
+          },
+          {
+            "N": 258,
+            "proportion": 0.03843861740166865,
+            "node_type_id": 476048909,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476048909_glif_lif_asc_config.json"
+          },
+          {
+            "N": 263,
+            "proportion": 0.03918355184743742,
+            "node_type_id": 476131588,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476131588_glif_lif_asc_config.json"
+          },
+          {
+            "N": 211,
+            "proportion": 0.031436233611442196,
+            "node_type_id": 476263004,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476263004_glif_lif_asc_config.json"
+          },
+          {
+            "N": 426,
+            "proportion": 0.06346841477949941,
+            "node_type_id": 479492633,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "479492633_glif_lif_asc_config.json"
+          },
+          {
+            "N": 271,
+            "proportion": 0.040375446960667465,
+            "node_type_id": 480090260,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480090260_glif_lif_asc_config.json"
+          },
+          {
+            "N": 318,
+            "proportion": 0.04737783075089392,
+            "node_type_id": 480169178,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480169178_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1055,
+            "proportion": 0.15718116805721097,
+            "node_type_id": 480351780,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480351780_glif_lif_asc_config.json"
+          },
+          {
+            "N": 573,
+            "proportion": 0.08536948748510131,
+            "node_type_id": 480353286,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480353286_glif_lif_asc_config.json"
+          },
+          {
+            "N": 353,
+            "proportion": 0.05259237187127533,
+            "node_type_id": 484659182,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "484659182_glif_lif_asc_config.json"
+          },
+          {
+            "N": 409,
+            "proportion": 0.06093563766388558,
+            "node_type_id": 484737013,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "484737013_glif_lif_asc_config.json"
+          },
+          {
+            "N": 409,
+            "proportion": 0.06093563766388558,
+            "node_type_id": 517645929,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "517645929_glif_lif_asc_config.json"
+          },
+          {
+            "N": 336,
+            "proportion": 0.050059594755661505,
+            "node_type_id": 518271679,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "518271679_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i5Htr3a": {
+        "ncells": 508,
+        "ei": "i",
+        "depth_range": [
+          430.0,
+          649.0
+        ],
+        "models": [
+          {
+            "N": 196,
+            "proportion": 0.3858267716535433,
+            "node_type_id": 478110866,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478110866_glif_lif_asc_config.json"
+          },
+          {
+            "N": 69,
+            "proportion": 0.13582677165354332,
+            "node_type_id": 482764620,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "482764620_glif_lif_asc_config.json"
+          },
+          {
+            "N": 243,
+            "proportion": 0.47834645669291337,
+            "node_type_id": 482773968,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "482773968_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i5Pvalb": {
+        "ncells": 2876,
+        "ei": "i",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "N": 5,
+            "proportion": 0.0017385257301808068,
+            "node_type_id": 313861608,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "313861608_glif_lif_asc_config.json"
+          },
+          {
+            "N": 530,
+            "proportion": 0.18428372739916551,
+            "node_type_id": 318556138,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "318556138_glif_lif_asc_config.json"
+          },
+          {
+            "N": 497,
+            "proportion": 0.17280945757997218,
+            "node_type_id": 336676216,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "336676216_glif_lif_asc_config.json"
+          },
+          {
+            "N": 305,
+            "proportion": 0.1060500695410292,
+            "node_type_id": 478793814,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478793814_glif_lif_asc_config.json"
+          },
+          {
+            "N": 23,
+            "proportion": 0.007997218358831711,
+            "node_type_id": 478949560,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478949560_glif_lif_asc_config.json"
+          },
+          {
+            "N": 183,
+            "proportion": 0.06363004172461753,
+            "node_type_id": 480952106,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "480952106_glif_lif_asc_config.json"
+          },
+          {
+            "N": 460,
+            "proportion": 0.1599443671766342,
+            "node_type_id": 481017021,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "481017021_glif_lif_asc_config.json"
+          },
+          {
+            "N": 873,
+            "proportion": 0.30354659248956883,
+            "node_type_id": 515305346,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "515305346_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i5Sst": {
+        "ncells": 2538,
+        "ei": "i",
+        "depth_range": [
+          430.0,
+          650.0
+        ],
+        "models": [
+          {
+            "N": 325,
+            "proportion": 0.128053585500394,
+            "node_type_id": 464198958,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "464198958_glif_lif_asc_config.json"
+          },
+          {
+            "N": 4,
+            "proportion": 0.0015760441292356187,
+            "node_type_id": 475517090,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "475517090_glif_lif_asc_config.json"
+          },
+          {
+            "N": 421,
+            "proportion": 0.16587864460204885,
+            "node_type_id": 478396248,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478396248_glif_lif_asc_config.json"
+          },
+          {
+            "N": 302,
+            "proportion": 0.11899133175728921,
+            "node_type_id": 478412623,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478412623_glif_lif_asc_config.json"
+          },
+          {
+            "N": 1486,
+            "proportion": 0.5855003940110323,
+            "node_type_id": 482690728,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "482690728_glif_lif_asc_config.json"
+          }
+        ]
+      }
+    },
+    "VisL6": {
+      "e6Ntsr1": {
+        "ncells": 57202,
+        "ei": "e",
+        "depth_range": [
+          650.0,
+          850.0
+        ],
+        "models": [
+          {
+            "N": 2793,
+            "proportion": 0.04882696409216461,
+            "node_type_id": 466632464,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "466632464_glif_lif_asc_config.json"
+          },
+          {
+            "N": 151,
+            "proportion": 0.0026397678402853048,
+            "node_type_id": 471789504,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "471789504_glif_lif_asc_config.json"
+          },
+          {
+            "N": 45497,
+            "proportion": 0.7953742876123212,
+            "node_type_id": 471819401,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "471819401_glif_lif_asc_config.json"
+          },
+          {
+            "N": 742,
+            "proportion": 0.012971574420474809,
+            "node_type_id": 509003464,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "509003464_glif_lif_asc_config.json"
+          },
+          {
+            "N": 8019,
+            "proportion": 0.14018740603475402,
+            "node_type_id": 539742766,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "539742766_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i6Htr3a": {
+        "ncells": 841,
+        "ei": "i",
+        "depth_range": [
+          650.0,
+          850.0
+        ],
+        "models": [
+          {
+            "N": 193,
+            "proportion": 0.2294887039239001,
+            "node_type_id": 479219923,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "479219923_glif_lif_asc_config.json"
+          },
+          {
+            "N": 648,
+            "proportion": 0.7705112960760999,
+            "node_type_id": 487176969,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "487176969_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i6Pvalb": {
+        "ncells": 4626,
+        "ei": "i",
+        "depth_range": [
+          650.0,
+          850.0
+        ],
+        "models": [
+          {
+            "N": 3170,
+            "proportion": 0.6852572416774751,
+            "node_type_id": 471087830,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "471087830_glif_lif_asc_config.json"
+          },
+          {
+            "N": 278,
+            "proportion": 0.06009511456982274,
+            "node_type_id": 478058328,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478058328_glif_lif_asc_config.json"
+          },
+          {
+            "N": 479,
+            "proportion": 0.10354517942066581,
+            "node_type_id": 478828646,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "478828646_glif_lif_asc_config.json"
+          },
+          {
+            "N": 699,
+            "proportion": 0.1511024643320363,
+            "node_type_id": 481093525,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "481093525_glif_lif_asc_config.json"
+          }
+        ]
+      },
+      "i6Sst": {
+        "ncells": 4626,
+        "ei": "i",
+        "depth_range": [
+          650.0,
+          850.0
+        ],
+        "models": [
+          {
+            "N": 1215,
+            "proportion": 0.26264591439688717,
+            "node_type_id": 328549885,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "328549885_glif_lif_asc_config.json"
+          },
+          {
+            "N": 856,
+            "proportion": 0.18504107220060528,
+            "node_type_id": 473564515,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "473564515_glif_lif_asc_config.json"
+          },
+          {
+            "N": 467,
+            "proportion": 0.10095114569822741,
+            "node_type_id": 476104386,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "476104386_glif_lif_asc_config.json"
+          },
+          {
+            "N": 2088,
+            "proportion": 0.45136186770428016,
+            "node_type_id": 504608602,
+            "model_type": "point_process",
+            "model_template": "nest:glif_lif_asc_psc",
+            "dynamics_params": "504608602_glif_lif_asc_config.json"
+          }
+        ]
+      }
+    }
+  }
+}
