@@ -2,7 +2,10 @@ import json
 import numpy as np
 import math
 from random import random
+import logging
 
+
+logger = logging.getLogger(__name__)
 
 cc_prob_dict = json.load(open('biophys_props/v1_conn_props.json', 'r'))
 lgn_params = json.load(open('node_props/lgn_params.json', 'r'))
@@ -63,8 +66,8 @@ def compute_pair_type_parameters(source_type, target_type):
     # possible for A_new to go slightly above 1.0 in which case we rescale it to 1.0. We confirmed that if this
     # does happen, it is for a few cases and is not much higher than 1.0.
     if A_new > 1.0:
-         # print('WARNING: Adjusted calculated probability based on distance dependence is coming out to be ' \
-         #       'greater than 1 for ' + source_type + ' and ' + target_type + '. Setting to 1.0')
+         logger.warning('Adjusted calculated probability based on distance dependence is coming out to be ' 
+                        'greater than 1 for ' + source_type + ' and ' + target_type + '. Setting to 1.0')
          A_new = 1.0
 
     ##### To include orientation tuning ####
@@ -106,9 +109,10 @@ def compute_pair_type_parameters(source_type, target_type):
                 B1 = B1 + delta
 
             B_ratio = B2 / B1
-            print('WARNING: Could not satisfy the desired B_ratio (probability of connectivity would become ' \
-                  'greater than one in some cases). Rescaled and now for ' + source_type + ' --> ' + target_type + \
-                  ' the ratio is set to: ', B_ratio)
+            logger.warning(
+                'Could not satisfy the desired B_ratio, probability of connectivity would become greater than one in' 
+                'some cases. Rescaled, {} --> {} the ratio is set to {}'.format(source_type, target_type, B_ratio)
+            )
 
         G = (B2 - B1) / 90.0
 
@@ -217,6 +221,25 @@ def convert_z_to_lindegs(zcoords):
     return np.tan(0.04 * np.array(zcoords) * np.pi / 180.) * 180.0 / np.pi
 
 
+src_node_ids = set()
+selected_src_types = {
+    'sON_TF1': 0,
+    'sON_TF2': 0,
+    'sON_TF4': 0,
+    'sON_TF8': 0,
+    'sOFF_TF1': 0,
+    'sOFF_TF2': 0,
+    'sOFF_TF4': 0,
+    'sOFF_TF8': 0,
+    'sOFF_TF15': 0,
+    'tOFF_TF4': 0,
+    'tOFF_TF8': 0,
+    'tOFF_TF15': 0,
+    'sONsOFF_001': 0,
+    'sONtOFF_001': 0
+}
+
+
 def select_lgn_sources(sources, target, lgn_mean, lgn_models):
     target_id = target.node_id
     source_ids = [s.node_id for s in sources]
@@ -229,7 +252,7 @@ def select_lgn_sources(sources, target, lgn_mean, lgn_models):
         return [None] * len(source_ids)
 
     if target_id % 250 == 0:
-        print("connection LGN cells to L4 cell #", target_id)
+        logger.info("connection LGN cells to L4 cell #{}".format(target_id))
 
     subfields_centers_distance_min = parametersDictionary[pop_name]['centers_d_min']  # 10.0
     subfields_centers_distance_max = parametersDictionary[pop_name]['centers_d_max']  #11.0  # 11.0
@@ -403,10 +426,21 @@ def select_lgn_sources(sources, target, lgn_mean, lgn_models):
                         if np.random.random() < selection_probability:
                             src_cells_selected[src_type].append(src_id)
 
+    # print(src_cells_selected)
+    # for src_type, selected in src_cells_selected.items():
+    #     selected_src_types[src_type] += len(selected)
+
+
+
+    # print(selected_src_types)
+
     select_cell_ids = [id for _, selected in src_cells_selected.items() for id in selected]
+    # src_node_ids = src_node_ids | set(select_cell_ids)
+
 
     # if len(select_cell_ids) > 30:
     #     select_cell_ids = np.random.choice(select_cell_ids, 30, replace=False)
-    nsyns_ret = [parametersDictionary[pop_name]['N_syn'] if id in select_cell_ids else None for id in source_ids]
-    return nsyns_ret
+    nsyns_ret = [parametersDictionary[pop_name]['N_syn'] if id in select_cell_ids else 0 for id in source_ids]
+    # nsyns_ret = [id if id in select_cell_ids else 0 for id in source_ids]
 
+    return nsyns_ret

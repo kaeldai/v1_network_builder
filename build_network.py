@@ -7,7 +7,7 @@ import argparse
 import logging
 
 from node_funcs import generate_random_positions, generate_positions_grids, get_filter_spatial_size, get_filter_temporal_params
-from edge_funcs import compute_pair_type_parameters, connect_cells, select_lgn_sources
+from edge_funcs import compute_pair_type_parameters, connect_cells, select_lgn_sources, selected_src_types, src_node_ids
 from bmtk.builder import NetworkBuilder
 
 
@@ -199,17 +199,38 @@ def add_nodes_lgn():
 def add_lgn_v1_edges(v1_net, lgn_net, x_len=240.0, y_len=120.0):
     conn_weight_df = pd.read_csv('conn_props/edge_type_models.csv', sep=' ')
     conn_weight_df = conn_weight_df[(conn_weight_df['source_label'] == 'LGN')]
+    # conn_weight_df = conn_weight_df[conn_weight_df['target_model_id'] == 100000101]
+
+    # print(conn_weight_df)
+    # exit()
+
 
     lgn_mean = (x_len/2.0, y_len/2.0)
     lgn_models = json.load(open('node_props/lgn_models.json', 'r'))
 
+    i = 0
+
     for _, row in conn_weight_df.iterrows():
+        # i += 1
+        # if i > 1:
+        #     break
+
         src_type = row['source_label']
         trg_type = row['target_label']
         target_node_type = row['target_model_id']
 
+        # print(src_type, trg_type)
+        #
+        # target_nodes = list(v1_net.nodes(node_type_id=target_node_type))
+        # for node in target_nodes:
+        #     print(node.node_id, node['model_type'])
+        #     assert(node['model_type'] == 'point_process')
+        # exit()
+        # print(target_node_type, row['weight_max'])
+
+
         edge_params = {
-            'source': lgn_net.nodes(),
+            'source': lgn_net.nodes(location='LGN'),
             'target': v1_net.nodes(node_type_id=target_node_type),
             'iterator': 'all_to_one',
             'connection_rule': select_lgn_sources,
@@ -229,6 +250,7 @@ def add_lgn_v1_edges(v1_net, lgn_net, x_len=240.0, y_len=120.0):
 
         lgn_net.add_edges(**edge_params)
 
+    # exit()
     return lgn_net
 
 
@@ -299,13 +321,15 @@ if __name__ == '__main__':
     parser.add_argument('networks', type=str, nargs='*', default=['v1', 'bkg', 'lgn'])
     args = parser.parse_args()
 
+    np.random.seed(100)
+
     nets = set(args.networks)
     if nets - {'v1', 'lgn', 'bkg'}:
         # check specified networks
         raise Exception('Uknown network(s) {}. valid networks: v1, lgn, bkg'.format(set(nets) - {'v1', 'lgn', 'bkg'}))
 
-    if not os.path.exists(args.output_dir):
-        os.mkdir(args.output_dir)
+    # if not os.path.exists(args.output_dir):
+    #     os.mkdir(args.output_dir)
 
     # set up logging
     logging.basicConfig(
@@ -342,6 +366,9 @@ if __name__ == '__main__':
         lgn = add_lgn_v1_edges(v1, lgn)
         lgn.build()
         lgn.save(args.output_dir)
+
+        print(selected_src_types)
+        # print(list(src_node_ids))
 
     if 'bkg' in nets:
         logger.info('Building bkg network.')
