@@ -1,6 +1,7 @@
 import os
 import pickle
 import numpy as np
+import pandas as pd
 
 
 def generate_random_positions(N, layer_range, radial_range):
@@ -18,8 +19,13 @@ def generate_random_positions(N, layer_range, radial_range):
     y = (layer_end - layer_start) * np.random.random([N]) + layer_start
 
     positions = np.column_stack((x, y, z))
-
     return positions
+
+
+v1_coords_df = pd.read_csv('node_props/v1_coords.orig.csv', sep=' ')
+def get_v1_coords(N, node_type_id):
+    coords = v1_coords_df[v1_coords_df['node_type_id'] == node_type_id][['x', 'y', 'z']].values
+    return coords[:N, :]
 
 
 def generate_positions_grids(N, x_grids, y_grids, x_len, y_len):

@@ -6,7 +6,7 @@ import pandas as pd
 import argparse
 import logging
 
-from node_funcs import generate_random_positions, generate_positions_grids, get_filter_spatial_size, get_filter_temporal_params
+from node_funcs import generate_random_positions, generate_positions_grids, get_filter_spatial_size, get_filter_temporal_params, get_v1_coords
 from edge_funcs import compute_pair_type_parameters, connect_cells, select_lgn_sources, selected_src_types, src_node_ids
 from bmtk.builder import NetworkBuilder
 
@@ -43,7 +43,8 @@ def add_nodes_v1(fraction=.50, node_props='biophys_props/v1_node_models.json'):
                 # create a list of randomized cell positions for each cell type
                 radial_range = inner_radial_range if model['model_type'] == 'biophysical' else outer_radial_range
                 N = model['N']
-                positions = generate_random_positions(N, depth_range, radial_range)
+                # positions = generate_random_positions(N, depth_range, radial_range)
+                positions = get_v1_coords(N, node_type_id=model['node_type_id'])
 
                 # properties used to build the cells for each cell-type
                 node_props = {
@@ -60,6 +61,9 @@ def add_nodes_v1(fraction=.50, node_props='biophys_props/v1_node_models.json'):
                     'y': positions[:, 1],
                     'z': positions[:, 2],
                     'tuning_angle': np.linspace(0.0, 360.0, N, endpoint=False),
+                    'rotation_angle_xaxis': np.zeros(N),
+                    'rotation_angle_yaxis': np.zeros(N),
+                    'rotation_angle_zaxis': np.zeros(N)
                 }
                 if model['model_type'] == 'biophysical':
                     # for biophysically detailed cell-types add info about rotations and morphollogy
@@ -94,9 +98,10 @@ def find_direction_rule(src_label, trg_label):
 
 
 def add_edges_v1(net):
-    conn_weight_df = pd.read_csv('biophys_props/v1_edge_models.csv', sep=' ')
+    # conn_weight_df = pd.read_csv('biophys_props/v1_edge_models.csv', sep=' ')
+    conn_weight_df = pd.read_csv('biophys_props/v1_v1_edge_models.csv', sep=' ')
 
-    conn_weight_df = conn_weight_df[~(conn_weight_df['source_label'] == 'LGN')]
+    # conn_weight_df = conn_weight_df[~(conn_weight_df['source_label'] == 'LGN')]
     for _, row in conn_weight_df.iterrows():
         node_type_id = row['target_model_id']
         src_type = row['source_label']
@@ -107,13 +112,15 @@ def add_edges_v1(net):
         if src_trg_params['A_new'] > 0.0:
             if trg_type.startswith('LIF'):
                 net.add_edges(
+                    edge_type_id=row['edge_type_id'],
+
                     source={'pop_name': src_type},
                     target={'node_type_id': node_type_id},
                     iterator='all_to_one',
                     connection_rule=connect_cells,
                     connection_params={'params': src_trg_params},
                     dynamics_params=row['params_file'],
-                    model_template='exp2syn',
+                    # model_template='exp2syn',
                     syn_weight=row['weight_max'],
                     delay=row['delay'],
                     weight_function=weight_fnc,
@@ -196,45 +203,60 @@ def add_nodes_lgn():
     return lgn
 
 
+# #########
+# from bmtk.utils import sonata
+# from bmtk.builder.builder_utils import mpi_size, mpi_rank
+#
+# net = sonata.File(
+#     data_files='network_orig/lgn_v1_edges.h5',
+#     data_type_files='network_orig/lgn_v1_edge_types.csv'
+# )
+# edges = net.edges['lgn_to_v1']
+# n_rank_nodes = int(230924.0/mpi_size)
+# per = int(n_rank_nodes*.10)
+# count = 0
+#
+# def connect_lgn_v1_exact(src_nodes, trg_node, **kwargs):
+#     global count
+#     if mpi_rank == 0 and count%per == 0:
+#         logger.info('{}% completed'.format(count/float(n_rank_nodes)*100))
+#     count += 1
+#
+#     matches = {edge.source_node_id: edge['nsyns'] for edge in edges.get_target(trg_node.node_id)}
+#     if matches:
+#         nsyns = [matches.get(s.node_id, 0) for s in src_nodes]
+#         assert(np.count_nonzero(nsyns) == len(matches))
+#         return nsyns
+#     else:
+#         return [0]*len(src_nodes)
+# ########
+
+
 def add_lgn_v1_edges(v1_net, lgn_net, x_len=240.0, y_len=120.0):
-    conn_weight_df = pd.read_csv('conn_props/edge_type_models.csv', sep=' ')
-    conn_weight_df = conn_weight_df[(conn_weight_df['source_label'] == 'LGN')]
-    # conn_weight_df = conn_weight_df[conn_weight_df['target_model_id'] == 100000101]
-
-    # print(conn_weight_df)
-    # exit()
-
+    conn_weight_df = pd.read_csv('biophys_props/lgn_v1_edge_models.csv', sep=' ')
+    lgn_params = json.load(open('node_props/lgn_params.json', 'r'))
 
     lgn_mean = (x_len/2.0, y_len/2.0)
     lgn_models = json.load(open('node_props/lgn_models.json', 'r'))
 
-    i = 0
-
     for _, row in conn_weight_df.iterrows():
-        # i += 1
-        # if i > 1:
-        #     break
-
         src_type = row['source_label']
         trg_type = row['target_label']
         target_node_type = row['target_model_id']
 
-        # print(src_type, trg_type)
-        #
-        # target_nodes = list(v1_net.nodes(node_type_id=target_node_type))
-        # for node in target_nodes:
-        #     print(node.node_id, node['model_type'])
-        #     assert(node['model_type'] == 'point_process')
-        # exit()
-        # print(target_node_type, row['weight_max'])
-
-
         edge_params = {
+            'edge_type_id': row['edge_type_id'],
             'source': lgn_net.nodes(location='LGN'),
             'target': v1_net.nodes(node_type_id=target_node_type),
             'iterator': 'all_to_one',
+            # 'connection_rule': connect_lgn_v1_exact,
             'connection_rule': select_lgn_sources,
-            'connection_params': {'lgn_mean': lgn_mean, 'lgn_models': lgn_models},
+            'connection_params': {
+                'lgn_mean': lgn_mean,
+                'lgn_models': lgn_models,
+                'nsyns': row['nsyns'],
+                'edge_type_id': row['edge_type_id']
+            },
             'dynamics_params': row['params_file'],
             'model_template': None if trg_type.startswith('LIF') else 'exp2syn',
             'syn_weight': row['weight_max'],
@@ -250,7 +272,6 @@ def add_lgn_v1_edges(v1_net, lgn_net, x_len=240.0, y_len=120.0):
 
         lgn_net.add_edges(**edge_params)
 
-    # exit()
     return lgn_net
 
 
@@ -366,9 +387,6 @@ if __name__ == '__main__':
         lgn = add_lgn_v1_edges(v1, lgn)
         lgn.build()
         lgn.save(args.output_dir)
-
-        print(selected_src_types)
-        # print(list(src_node_ids))
 
     if 'bkg' in nets:
         logger.info('Building bkg network.')

@@ -240,19 +240,20 @@ selected_src_types = {
 }
 
 
-def select_lgn_sources(sources, target, lgn_mean, lgn_models):
+def select_lgn_sources(sources, target, lgn_mean, lgn_models, nsyns, edge_type_id):
     target_id = target.node_id
     source_ids = [s.node_id for s in sources]
 
     parametersDictionary = lgn_params
+
+    # if edge_type_id == 6741:
+    #     assert(nsyns == 10)
+
     pop_name = [key for key in parametersDictionary if key in target['pop_name']][0]
 
     # Check if target supposed to get a connection and if not, then no need to keep calculating.
     if np.random.random() > parametersDictionary[pop_name]['probability']:
         return [None] * len(source_ids)
-
-    if target_id % 250 == 0:
-        logger.info("connection LGN cells to L4 cell #{}".format(target_id))
 
     subfields_centers_distance_min = parametersDictionary[pop_name]['centers_d_min']  # 10.0
     subfields_centers_distance_max = parametersDictionary[pop_name]['centers_d_max']  #11.0  # 11.0
@@ -426,21 +427,9 @@ def select_lgn_sources(sources, target, lgn_mean, lgn_models):
                         if np.random.random() < selection_probability:
                             src_cells_selected[src_type].append(src_id)
 
-    # print(src_cells_selected)
-    # for src_type, selected in src_cells_selected.items():
-    #     selected_src_types[src_type] += len(selected)
-
-
-
-    # print(selected_src_types)
-
     select_cell_ids = [id for _, selected in src_cells_selected.items() for id in selected]
-    # src_node_ids = src_node_ids | set(select_cell_ids)
 
-
-    # if len(select_cell_ids) > 30:
-    #     select_cell_ids = np.random.choice(select_cell_ids, 30, replace=False)
-    nsyns_ret = [parametersDictionary[pop_name]['N_syn'] if id in select_cell_ids else 0 for id in source_ids]
-    # nsyns_ret = [id if id in select_cell_ids else 0 for id in source_ids]
+    # nsyns_ret = [parametersDictionary[pop_name]['N_syn'] if id in select_cell_ids else 0 for id in source_ids]
+    nsyns_ret = [nsyns if id in select_cell_ids else 0 for id in source_ids]
 
     return nsyns_ret
